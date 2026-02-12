@@ -28,7 +28,8 @@ Existem diversas estratégias dependendo do contexto:
 * **Utilidade:** Permite identificar se o modelo está confundindo uma classe específica com outra, ajudando a calcular métricas como Precisão e Revocação (Recall).
 
 ### 5. Áreas de aplicação interessantes
-A aplicação de Machine Learning é vasta, mas vejo grande potencial em:
-* **Saúde:** Para prever doenças crônicas antes dos sintomas clínicos aparecerem.
-* **Agricultura:** No monitoramento de solo e clima para otimizar a colheita.
-* **Manufatura:** Através da manutenção preditiva, reduzindo custos com paradas não planejadas de máquinas.
+A aplicação de Machine Learning é vasta, mas vejo grande potencial em áreas que lidam com grandes volumes de dados em tempo real:
+
+* **Telecomunicações (Exemplo Prático):** Utilização de modelos para **Alocação Dinâmica de Recursos** e **Manutenção Preditiva de Redes**. Algoritmos podem analisar o tráfego em tempo real para prever congestionamentos em células de rede (estilo 5G) e redistribuir a carga automaticamente, garantindo a Qualidade de Serviço (QoS) sem intervenção humana constante.
+* **Saúde:** Diagnóstico auxiliado por computador, onde modelos de visão computacional analisam exames de imagem para detectar anomalias com precisão milimétrica.
+* **Manufatura:** Implementação de sensores em linhas de produção que, através de Machine Learning, identificam padrões de vibração ou calor que antecedem falhas mecânicas, permitindo o conserto antes da parada total.
